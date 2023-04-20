@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rave-invocation-trigger trigger-id="1574735" data-component-name="STUDYVISIT" st-component-name="PDR" environment="Prod">
+  <Host>mdsol.com</Host>
+  <Port>443</Port>
+  <path>RaveWebServices/datasets/GetPlannedVisitDate?StudyName=CDIPT020</path>
+  <parameters>
+    <parameter-name>page</parameter-name>
+    <parameter-value>1</parameter-value>
+  </parameters>
+  <parameters>
+    <parameter-name>per_page</parameter-name>
+    <parameter-value>100000</parameter-value>
+  </parameters>
+  <parameters>
+    <parameter-name>per_page</parameter-name>
+    <parameter-value>1000</parameter-value>
+  </parameters>
+  <parameters>
+    <parameter-name>per_page</parameter-name>
+    <parameter-value>1000000</parameter-value>
+  </parameters>
+  <redelivery-delay>1</redelivery-delay>
+</rave-invocation-trigger>
